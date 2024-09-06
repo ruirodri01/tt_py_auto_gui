@@ -1,6 +1,6 @@
 # PyAutoGUI Automation Script Example
 
-This repository contains a Python script that automates several tasks on a Windows machine using the PyAutoGUI library. The script opens Notepad, writes the current time, takes screenshots, interacts with the Windows Start menu, and closes applications automatically.
+This repository contains a Python script that automates some tasks on a Windows machine using the PyAutoGUI library. 
 
 ## Features
 

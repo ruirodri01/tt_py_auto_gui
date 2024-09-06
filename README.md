@@ -25,19 +25,6 @@ Before you can install and run the script, ensure the following tools are instal
 
 3. **Virtual Environment**: Ensure that `venv` is available to create virtual environments. It comes by default with Python 3.x.
 
-4. **PyAutoGUI Requirements**: 
-    - **Pillow**: The `pyautogui` library requires `Pillow` to handle screenshots.
-    - **Image Dependencies for Linux**: If you're using Linux, ensure you have the following libraries installed:
-      ```bash
-      sudo apt-get install scrot python3-tk python3-dev
-      ```
-
-5. **Image Resources**: 
-    - You should have the `iniciar.png` image in an `images/` folder within the repository. This image is used by the script to identify the Start button on your screen.
-
-6. **Screenshots Folder**: Ensure that a `screenshots/` folder exists in the repository for saving the screenshots.
-
-
 ## Installation
 
 1. Clone the repository:
@@ -84,9 +71,10 @@ To run the script, simply execute it using Python:
 
 ## Exiting the Virtual Environment<br>
 Once you're done, you can deactivate the virtual environment by running:<br>
-    ```bash
-    deactivate
-    ```
+    
+  ```bash
+  deactivate
+  ```
 ## Notes
 * You might need to adjust the time delays (pag.sleep(wait)) depending on the performance of your machine.
 * Ensure that the iniciar.png image matches the Start button on your screen to avoid issues with locating the Start menu.

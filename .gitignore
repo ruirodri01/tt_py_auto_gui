@@ -1,5 +1,5 @@
 Scripts/**
-screenshots/**
+screenshots/*.png
 Lib/**
 Include/**
 pyvenv.cfg

@@ -2,7 +2,7 @@ import pyautogui as pag
 import datetime
 
 # Set the wait time between actions in seconds
-wait=2
+wait=0.5
 
 # Open the Windows Run dialog
 pag.hotkey("win", "r")
@@ -50,5 +50,5 @@ pag.screenshot(now)
 pag.press("esc")
 
 # Imprime "e aí, funcionou?"
-print("\ne aí, funcionou? :D\n")
+print("\nE aí, funcionou? :D :D\n")
 

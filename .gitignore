@@ -3,3 +3,4 @@ screenshots/*.png
 Lib/**
 Include/**
 pyvenv.cfg
+venv/**

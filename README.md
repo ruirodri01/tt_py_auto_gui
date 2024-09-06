@@ -54,7 +54,7 @@ Before you can install and run the script, ensure the following tools are instal
    - **For Windows:**
      ```bash
      python -m venv venv
-     venv\Scripts\activate
+     venv\Scripts\activate.bat
      ```
    - **For macOS/Linux:**
      ```bash
@@ -76,7 +76,7 @@ To run the script, simply execute it using Python:
 
   ```bash
   python py_auto_gui.py
-  '''
+  ```
 
 ## Make sure that:
 * Your screen resolution matches the one used to create the iniciar.png image for accurate image recognition.
